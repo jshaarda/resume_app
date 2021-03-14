@@ -1,0 +1,43 @@
+<b>PROFESSIONAL SUMMARY</b>
+----------------------------------------------------------------------------------------------------
+Multifaceted technical career with years of achievement as a Programmer Analyst and Systems Analyst in various industries.  Technically sophisticated professional specializing in all aspects of systems analysis, programming, program design, and documentation. Excellent interpersonal communication skills demonstrated through a history of working effectively with team members, both in-office and remotely, to drive the successful completion of projects. 
+
+CORE STRENGTHS
+Programming | Analysis | Technical Support |Customer Service | Remote Issue Identification |Timely Resolution | Documentation | Pattern Recognition | Internet Savvy | Attention to Detail | Detailed Workflows | Self-initiating | Problem Solving | Resourceful | Versatile | Time and Time Management | Written and Verbal Communication
+
+<b>TECHNOLOGY</b>
+----------------------------------------------------------------------------------------------------
+Environments:  OS/390, Windows, VSE, Linux
+Tools:  Microsoft Office products, Cobol, VSAM, CICS, SQL, VBScript, Visual Basic,  C#, DB2,  JCL, Easytrieve, Java, JavaScript, XML, Python, R, AWS, Django, Rest, Reportlab, Git, Tableau.
+Additional skills: Tensorflow, Keras, Numpy, Pandas, Matplotlib, Scikit,  Json, Flask, Bootstrap, Javascript, JQuery, SQLite3, PostgreSQL, Tkinter, OpenCV, Bokeh, MLLib, GGPlot2, AWS, SSIS, C#,  PyTorch.
+
+<b>PROFESSIONAL EXPERIENCE</b> 
+----------------------------------------------------------------------------------------------------
+<b>Self-study,</b> (03/2018 – Present) 
+
+<b><i>Courses taken:</i></b>
+	•	Python Bootcamp	
+	•	Python for Data Science and Machine Learning Bootcamp
+	•	Python Mega Course: Build 10 Real-World Applications
+	•	Python Rest API with Django Rest Framework
+	•	Django Full Stack Web Developer Bootcamp
+	•	Build a Backend Rest API with Python and Django
+	•	Data Science A-Z, Real-life Data Exercises
+	•	Data Science Course 2019: Complete Data Science Bootcamp  
+	•	Data Science, Deep Learning, and Machine Learning with Python
+	•	Data Science Essentials Advanced Algorithms and Visualizations
+	•	Data Science with R – 4 Projects + 8 Case Studies
+	•	AWS Certified Developer Associate 2019 Training
+	•	R Programming A-Z for Deep Science
+	•	R Programming:  Advanced Analytics in R for Data Science
+	•	Getting Started with Git and Github
+	•	Next –Level Git and Github – Get Productive Right Now
+	•	C# in Depth:  A Comprehensive Course
+	•	Tableau 10 A-Z: Hands-on Tableau Training for Data Science
+	•	Artificial Intelligence A-Z:  How to Build an AI
+
+<b><i>Projects completed:</i></b>
+	•	Personal Library Catalog – app to add, update, delete, and search books in my home library
+	•	Resume Skills Inventory – app to add and update various jobs, projects, and skills to my resume, and print resume as needed
+	•	German Quiz and Translation – app to translate German to English and vice versa, generate quizzes of user-determined lengths, and maintain a German-English dictionary
+ 

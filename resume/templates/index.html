@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% block title %}<title>Resume</title>{% endblock %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Add additional CSS in static file -->
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+<div class="container-fluid">
+<div class="column">
+  {% block content %}
+  <img src="{% static "images/resume.program.image.png" %}" alt="Resume Program" style="display:block;margin-left:auto;margin-right:auto;width:50%"/>
+  <div style="text-align:center;margin-left:auto;margin-right:auto;display:table;"> 
+    <ul style="text-align:left; list-style-type: none;">
+      <li><a href="{% url 'job_list' %}">Jobs</a></li>
+      <li><a href="{% url 'skill_list' %}">Skills</a></li>
+      <li><a href="{% url 'project_list' %}">Projects</a></li>
+      <li><a href="{% url 'print_view' %}">Print Resume</a></li>
+      <li><a href="{% url 'admin' %}">Maintenance</a></li>
+    </ul>
+  </div>
+  {% endblock %}
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+  {% block title %}<title>Project Detail</title>{% endblock %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Add additional CSS in static file -->
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+<div class="container-fluid">
+	<div class="column">
+	{% block content %}
+		<div style="text-align:center;margin-left:auto;margin-right:auto;display:table;">
+			<h1>Project: {{ project.name }}</h1>
+			<table style="text-align:left">
+				<tr style="vertical-align:top"><td><strong>Description:</strong></td> <td style="padding:0 15px 0 15px;"> {{ project.description }}</td></tr>
+				<tr style="vertical-align:top"><td><strong>Skills:</strong></td> <td style="padding:0 15px 0 15px;">  {{ project.get_skill }} </td></tr>
+			</table>
+			<div align="center">
+				<form action="{% url 'project_list' %}" method="get">
+					<button style="text-align:center;margin-top:25px" type = “submit”>Back to Projects</button>
+				</form>
+				<form action="{% url 'index' %}" method="get">
+					<button style="text-align:center;margin-top:25px" type = “submit”>Return to Main Menu</button>
+				</form>	
+			</div>
+		</div>
+	{% endblock %}
+	</div>
+</div>
+</body>
+</html>
