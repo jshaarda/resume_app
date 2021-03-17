@@ -121,9 +121,9 @@ def print_view(request):
                     edate = "Present"
                 else:
                     edate = job.end_date.strftime("%m/%Y")
-                line = "<b>" + job.name + ", </b>" + job.client + " (" + sdate + " - " + edate + ")"
+                line = "<b>" + job.name + "</b> (" + str(job.remote_pct) + "% remote),   " + job.client + " (" + sdate + " - " + edate + ")"
                 ll = getLineLength(line)
-                s = round((5 - ll)/0.044)
+                s = round((5.1 - ll)/0.044)
                 if s > 30:
                     s += 5
                 q = ll + s*0.044
