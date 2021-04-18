@@ -31,13 +31,7 @@ Additional skills: Tensorflow, Keras, Numpy, Pandas, Matplotlib, Scikit,  Json, 
 	•	R Programming A-Z for Deep Science
 	•	R Programming:  Advanced Analytics in R for Data Science
 	•	Getting Started with Git and Github
-	•	Next –Level Git and Github – Get Productive Right Now
+	•	Next–Level Git and Github – Get Productive Right Now
 	•	C# in Depth:  A Comprehensive Course
 	•	Tableau 10 A-Z: Hands-on Tableau Training for Data Science
 	•	Artificial Intelligence A-Z:  How to Build an AI
-
-<b><i>Projects completed:</i></b>
-	•	Personal Library Catalog – app to add, update, delete, and search books in my home library
-	•	Resume Skills Inventory – app to add and update various jobs, projects, and skills to my resume, and print resume as needed
-	•	German Quiz and Translation – app to translate German to English and vice versa, generate quizzes of user-determined lengths, and maintain a German-English dictionary
- 

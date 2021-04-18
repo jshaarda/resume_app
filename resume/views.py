@@ -100,7 +100,7 @@ def print_view(request):
     styles = getSampleStyleSheet()
     styleCentered = ParagraphStyle(name="centeredStyle", alignment=TA_CENTER)
     styleFontsize = ParagraphStyle(name="fontStyle", fontSize=9)
-    files = ["part1.txt", "dbjobs", "part2.txt"]
+    files = ["part1.txt", "dbprojects", "dbjobs", "part2.txt"]
     title1 = Paragraph("<b>JIM SHAARDA</b>", styleCentered)
     title2 = Paragraph("North Royalton, OH 44133 | 440-263-6971 | jshaarda1162@gmail.com", styleCentered)
     frame = Frame(doc.leftMargin, doc.bottomMargin, doc.width, doc.height-0.5*inch, id='normal')
@@ -110,7 +110,17 @@ def print_view(request):
    
     for fn in files:
         L = []
-        if fn == "dbjobs":
+        if fn == "dbprojects":
+            projects = Project.objects.all().order_by('name')
+            line = "<b><i>Projects completed:</i></b>"
+            L.append(line)
+            for project in projects:
+                if project.name == "None":
+                    continue
+                else:
+                    line = '    • ' + project.name + ' - ' + project.description
+                    L.append(line)
+        elif fn == "dbjobs":
             jobs = Job.objects.all().order_by('-start_date')
             now = datetime.datetime.now()
             for job in jobs:
